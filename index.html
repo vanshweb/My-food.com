@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myfood.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="phon.css">
+    <script src="live.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="img">
+            <img src="img/logo.png" alt="" id="logo">
+
+        </div>
+
+        <ul>
+            <li class="item"><a href="#body">Home</a></li>
+            <li class="item"><a href="#services-box">Services</a></li>
+            <li class="item"><a href="#clint-section">Our clints</a></li>
+            <li class="item"><a href="#context">Contact us</a></li>
+        </ul>
+
+    </nav>
+    <section class="body">
+        <h1 class="h-p">Welcome to myfood</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, voluptatum!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        <button class="btn" onclick="order()" >
+            Order now
+        </button>
+    </section>
+
+    <section id="services-box">
+        <h1 class="h-p centre">Our services</h1>
+        <div id="services">
+
+            <div class="box">
+                <img src="box/p.jpg" alt="">
+                <h2 class="h-s centre">24/7 services</h2>
+                <p class="centre">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus
+                    culpa fuga sint cupiditate. Possimus assumenda ratione fugit veniam ipsum commodi ab nobis debitis
+                    sint sequi repellat, officiis natus optio, aperiam quaerat illo facere.</p>
+            </div>
+
+            <div class="box">
+                <img src="box/d.jpg" alt="">
+                <h2 class="h-s centre">Food ordering</h2>
+                <p class="centre">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus
+                    culpa fuga sint cupiditate. Possimus assumenda ratione fugit veniam ipsum commodi ab nobis debitis
+                    sint sequi repellat, officiis natus optio, aperiam quaerat illo facere.</p>
+            </div>
+
+            <div class="box">
+                <img src="box/b.jpg" alt="">
+                <h2 class="h-s centre">Safe food</h2>
+                <p class="centre">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus
+                    culpa fuga sint cupiditate. Possimus assumenda ratione fugit veniam ipsum commodi ab nobis debitis
+                    sint sequi repellat, officiis natus optio, aperiam quaerat illo facere.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="clint-section">
+        <h1 class="h-p centre">Our clint</h1>
+        <div id="clints">
+            <div class="clint-items">
+                <img src="logo/app1.png" alt="">
+            </div>
+            <div class="clint-iteclass">
+                <img src="logo/inst.jpg" alt="">
+            </div>
+            <div class="clint-items">
+                <img src="logo/face.png" alt="">
+            </div>
+            <div class="clint-items">
+                <img src="logo/mic.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="context">
+        <h1 class="h-p centre">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="Name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="emil">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="Name">massage:</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="any question"></textarea>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer class="centre">
+        COPYRIGHTS &copy; www.myfood.com all rights are reserved
+    </footer>
+</body>
+
+</html>
